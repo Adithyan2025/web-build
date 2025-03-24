@@ -1,0 +1,23 @@
+*{
+    font-family: sans-serif;
+}
+.div1 {
+    border-width: 0cap;
+    padding-top: 0%;
+    display: flex;
+    justify-content: space-around;
+}
+.div2 {
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+}
+.div3 {
+    display: flex;
+    justify-content: space-between;
+}
+.h {
+    margin-top: 0%;
+    padding-top: 0%;
+    border-width: 0%;
+}
