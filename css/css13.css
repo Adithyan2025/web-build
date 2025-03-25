@@ -1,0 +1,28 @@
+.sub {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 2px; 
+   
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-items: center;
+    gap: 20px;
+    float: right;
+    margin-right: 500px;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+
+.sub:nth-child(6),
+.sub:nth-child(7),
+.sub:nth-child(10),
+.sub:nth-child(11) {
+    visibility: hidden;
+}
