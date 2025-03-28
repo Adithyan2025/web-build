@@ -1,0 +1,55 @@
+body {
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.main {
+    background-color: white;
+    height: 665px;
+    width: 470px;
+    margin-top: 30px;  
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.mains {
+    font-weight: bold;
+    margin-left: 10px;
+} 
+
+hr {
+    border-width: 1px;
+    border-color: rgba(235, 235, 246, 0.19);
+}
+
+.in {
+    width: 430px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 70px;
+    padding: 8px;
+    border-color: rgba(255, 255, 255, 0.066);
+    background-color: rgba(227, 227, 233, 0.7);
+    outline: none;
+}
+
+button {
+    height: 40px;
+    width: 420px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.756);
+    font-weight: bold;
+    color: white;
+}
