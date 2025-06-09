@@ -1,0 +1,32 @@
+ body {
+            scroll-behavior: smooth;
+        }
+        .hero {
+            background-image: url(https://img.freepik.com/free-photo/exercise-weights-iron-dumbbell-with-extra-plates_1423-223.jpg?ga=GA1.1.469068664.1716800775&semt=ais_hybrid&w=740);
+            background-size: cover;
+            
+            color: rgb(255, 255, 255);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            color: #0d6efd;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        #scrollTopBtn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            z-index: 999;
+        }
